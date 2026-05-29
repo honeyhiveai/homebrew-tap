@@ -1,25 +1,25 @@
 class Honeyhive < Formula
   desc "CLI for interacting with the HoneyHive REST API"
   homepage "https://github.com/honeyhiveai/honeyhive-cli"
-  version "1.2.1"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.2.1/honeyhive-1.2.1-macos-arm64.tar.gz"
-      sha256 "9d42b05eadcd2a23d350ca98edb3955adb69e93e74777dcfed3241493b12bf5e"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.3.0/honeyhive-1.3.0-macos-arm64.tar.gz"
+      sha256 "0bf5af6716a1ce00abeee9a4bfe866880d6ae35c172f9bcd7316c1c6dcebb176"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.2.1/honeyhive-1.2.1-linux-arm64.tar.gz"
-      sha256 "af4121944618b57490c21489917b96b7dbfea7c7094ac58430b35120662904ec"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.3.0/honeyhive-1.3.0-linux-arm64.tar.gz"
+      sha256 "59099ed912a05c2a5519f154dbf32643e848934f55c51048b382bc747982821f"
     end
 
     on_intel do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.2.1/honeyhive-1.2.1-linux-x64.tar.gz"
-      sha256 "594519bf7d5519e098a1c30211fb6732fbdb2e426ca6b67b60c47ce9a4a50550"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.3.0/honeyhive-1.3.0-linux-x64.tar.gz"
+      sha256 "66154e1fb75d82e75feca20655b11bd3d328fb6980273fa1545e339e8671e25c"
     end
   end
 
