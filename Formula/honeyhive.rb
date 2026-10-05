@@ -5,20 +5,20 @@ class Honeyhive < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.7.0/honeyhive-1.7.0-macos-arm64.tar.gz"
-      sha256 "0ead5bb5a3939c38387bea3966e8feb6295d80e56f0b409f694e90800e01fe4c"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.8.0/honeyhive-1.8.0-macos-arm64.tar.gz"
+      sha256 "c5de671a0f012e1730f7447076679122e357aeec98cb79714391431acd3597e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.7.0/honeyhive-1.7.0-linux-arm64.tar.gz"
-      sha256 "1103e44617a91b18728c89b8fd99f526c7b640fa7365d04a8353883070a6bfa7"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.8.0/honeyhive-1.8.0-linux-arm64.tar.gz"
+      sha256 "5ef358851e93bb6002d62c0d2045d4a53299e6ddfa3656d8c98e22cd0d1e0ddf"
     end
 
     on_intel do
-      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.7.0/honeyhive-1.7.0-linux-x64.tar.gz"
-      sha256 "a830b8eb84ca261575c0bf681a23a4b57253f7e6e8378654da8495c9550a5ef5"
+      url "https://github.com/honeyhiveai/honeyhive-cli/releases/download/v1.8.0/honeyhive-1.8.0-linux-x64.tar.gz"
+      sha256 "f517ebdc9efcd20efa06d16551467d2877067fe098db3e24ed584b93b36f80e5"
     end
   end
 
