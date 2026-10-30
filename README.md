@@ -5,10 +5,15 @@ Homebrew tap for HoneyHive tools.
 ## Install
 
 ```sh
-brew tap honeyhiveai/tap
-brew install honeyhive          # stable
-brew install honeyhive-preview  # prereleases (rcs)
+brew install honeyhiveai/tap/honeyhive          # stable
+brew install honeyhiveai/tap/honeyhive-preview  # prereleases (rcs)
 ```
+
+> **Note:** Homebrew 6.0.0 and later only load formulae from taps or formulae you have trusted. Installing by the full name, as above, trusts the formula. If `brew upgrade` stops upgrading the CLI, trust it once:
+>
+> ```sh
+> brew trust --formula honeyhiveai/tap/honeyhive
+> ```
 
 The `honeyhive-preview` formula tracks prerelease builds (versions with a hyphen, e.g. `2.0.0-rc.2`), analogous to npm's `next` dist-tag. The unsuffixed `honeyhive` formula tracks stable releases. The two are independent and cannot be installed side-by-side.
 
